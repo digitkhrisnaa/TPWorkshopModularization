@@ -9,7 +9,7 @@ This project contains tutorial how to extract your monolith iOS project to modul
 If you want to learn those 3 sessions or you accidentally landed here, then let's start the journey!
 
 ## Session 1 - Introduce to Swift Compiler
-Many of you may familiar how to create Swift Project, if you're working as iOS Developer or familiar with XCode, you know how to run the project by clicking the `play` button or `build` button. Did you know how's Swift Compiler actually work? 
+Many of you may familiar how to create Swift Project, if you're working as iOS Developer or familiar with XCode, you know how to run the project by clicking the `play` button or `build` button. Did you know how Swift Compiler actually work? 
 ### Swift Language
 Swift language is high level programming language, means there are tons of computer science abstraction till today, you as developer can easily to read and write the code without needs to worry regarding target architecture (x86_64, arm64, etc), addressing memory, or else. It's easy just to print `hello world` nowadays. 
 
@@ -84,7 +84,7 @@ From previous case, we have 4 object file `main.o`, `Cat.o`, `Dog.o` and `Animal
   swiftc main.o Cat.o Dog.o Animal.o -o MyApp.app
   ```
 
-After you run the command, it will product 1 file call MyApp.app, that's our executable, the linker has succeed to combine our object file into single binary. Now you can execute the program `./MyApp.app`.
+After you run the command, it will produce 1 file call MyApp.app, that's our executable, the linker has succeed to combine our object file into single binary. Now you can execute the program `./MyApp.app`.
 
 #### Session 1 - Final Word
 We have succeed to learn about Swift Build System without need to going deeper to the low level. In the real world you may face with the word `duplicate symbol` or `unresolved symbol`, we won't to talk about that in this workshop. The thing that you need to know is how Swift Build System working in a simple-way. On the next topic we will discuss regarding static and dynamic library, so first thing first is you get a better context between Compiler and Linker.
@@ -160,6 +160,7 @@ Try to remove items inside `/library/` directory and execute your app without co
   ![Untitled-2021-11-02-1423](https://user-images.githubusercontent.com/22362226/172826913-b711d75e-543e-4962-9539-d4c8767120a8.png)
   
 **Create Dynamic Library**
+
 To create dynamic, we only need to remove `-static` when executing the command emit library.
   ```swift
   swiftc -emit-module -emit-library Animal.swift Cat.swift Dog.swift -module-name Animal
