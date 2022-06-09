@@ -33,7 +33,7 @@ Compiler is a program that translate high-level and human-readable source code s
     ```
     And you will see MyApp.app and try to execute it `./MyApp.app` and it will show our print statement.
     - -module-name value - Name of the module to build, to easier your understanding, you can assume this is group of swift file in the same directory.
-    - -o filename - Write output to <file>
+    - -o filename - Write output to file
   
 3. Get your hand dirty
   
