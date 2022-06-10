@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "title": "Coba cek kategori ini",
+      "position": 4,
+      "products": [
+        {
+          "id": 0,
+          "price": 100,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3499/3499_55dbc109-742d-4f4b-b310-04121937310a.png"
+        },
+        {
+          "id": 0,
+          "price": 1233333,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3500/3500_07cae9d3-6f97-40d2-9d6e-98d6c6f46a6b.png"
+        },
+        {
+          "id": 0,
+          "price": 100000000,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3501/3501_51e06661-661d-47d9-b486-da6bef0c0499.png"
+        },
+        {
+          "id": 0,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3502/3502_ca41f7e5-ddfa-4d6b-ad17-e19f58d77ada.png",
+          "price": 10000
+        },
+        {
+          "id": 0,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3503/3503_b6e0056d-e0c4-4409-82f9-5220a55edcaf.png",
+          "price": 1000000
+        },
+        {
+          "id": 0,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3497/3497_beb326e6-7b2c-47c9-b070-453c56fe5aa4.png",
+          "price": 123124124
+        }
+      ]
+    },
+    {
+      "title": "Pilih sesuai budget-mu",
+      "position": 8,
+      "products": [
+        {
+          "id": 0,
+          "price": 100,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3499/3499_55dbc109-742d-4f4b-b310-04121937310a.png"
+        },
+        {
+          "id": 0,
+          "price": 1233333,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3500/3500_07cae9d3-6f97-40d2-9d6e-98d6c6f46a6b.png"
+        },
+        {
+          "id": 0,
+          "price": 100000000,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3501/3501_51e06661-661d-47d9-b486-da6bef0c0499.png"
+        },
+        {
+          "id": 0,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3502/3502_ca41f7e5-ddfa-4d6b-ad17-e19f58d77ada.png",
+          "price": 10000
+        },
+        {
+          "id": 0,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3503/3503_b6e0056d-e0c4-4409-82f9-5220a55edcaf.png",
+          "price": 1000000
+        },
+        {
+          "id": 0,
+          "image_url": "https://ecs7.tokopedia.net/img/cache/250-square/attachment/2019/9/21/3497/3497_beb326e6-7b2c-47c9-b070-453c56fe5aa4.png",
+          "price": 123124124
+        }
+      ]
+    }
+  ]
+}
