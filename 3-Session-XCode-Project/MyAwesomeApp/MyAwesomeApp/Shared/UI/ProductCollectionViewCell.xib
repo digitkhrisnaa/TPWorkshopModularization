@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionViewCell" id="7Hz-1W-XJU" customClass="ProductCollectionViewCell" customModule="TPWorkshopUnitTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JAa-AZ-BjR">
+                        <rect key="frame" x="4" y="10" width="142.5" height="142.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="JAa-AZ-BjR" secondAttribute="height" multiplier="1:1" id="i2B-EG-bFG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWS-GK-2Zb">
+                        <rect key="frame" x="4" y="160" width="142.5" height="33.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 50.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C83-Bl-mrx">
+                        <rect key="frame" x="4" y="203.5" width="142.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.89019607840000003" green="0.57254901960000004" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop - Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3F-oa-mlV">
+                        <rect key="frame" x="4" y="228" width="142" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GWS-GK-2Zb" firstAttribute="width" secondItem="JAa-AZ-BjR" secondAttribute="width" id="6ct-89-wAq"/>
+                <constraint firstItem="JAa-AZ-BjR" firstAttribute="centerX" secondItem="7Hz-1W-XJU" secondAttribute="centerX" id="8Of-4N-QRA"/>
+                <constraint firstItem="JAa-AZ-BjR" firstAttribute="width" secondItem="7Hz-1W-XJU" secondAttribute="width" multiplier="0.95" id="8Op-1I-EzK"/>
+                <constraint firstItem="C83-Bl-mrx" firstAttribute="width" secondItem="GWS-GK-2Zb" secondAttribute="width" id="8oW-2L-PhO"/>
+                <constraint firstItem="C83-Bl-mrx" firstAttribute="centerX" secondItem="GWS-GK-2Zb" secondAttribute="centerX" id="IE7-RV-EBR"/>
+                <constraint firstItem="Z3F-oa-mlV" firstAttribute="leading" secondItem="7Hz-1W-XJU" secondAttribute="leading" constant="4" id="JLT-o7-9n5"/>
+                <constraint firstItem="Z3F-oa-mlV" firstAttribute="centerX" secondItem="C83-Bl-mrx" secondAttribute="centerX" id="baz-4m-a7l"/>
+                <constraint firstItem="JAa-AZ-BjR" firstAttribute="top" secondItem="7Hz-1W-XJU" secondAttribute="top" constant="10" id="bze-G0-JlS"/>
+                <constraint firstAttribute="bottom" secondItem="Z3F-oa-mlV" secondAttribute="bottom" constant="7" id="iOx-OL-zyr"/>
+                <constraint firstItem="C83-Bl-mrx" firstAttribute="top" secondItem="GWS-GK-2Zb" secondAttribute="bottom" constant="10" id="jeg-gj-Y8L"/>
+                <constraint firstItem="GWS-GK-2Zb" firstAttribute="centerX" secondItem="JAa-AZ-BjR" secondAttribute="centerX" id="uN6-2Q-h2N"/>
+                <constraint firstItem="GWS-GK-2Zb" firstAttribute="top" secondItem="JAa-AZ-BjR" secondAttribute="bottom" constant="7.5" id="zMb-0K-64W"/>
+            </constraints>
+            <connections>
+                <outlet property="productImageView" destination="JAa-AZ-BjR" id="BTV-vA-9RQ"/>
+                <outlet property="productNameLabel" destination="GWS-GK-2Zb" id="OL9-9n-C7r"/>
+                <outlet property="productPriceLabel" destination="C83-Bl-mrx" id="Ehg-Dk-dMk"/>
+                <outlet property="productShopLabel" destination="Z3F-oa-mlV" id="805-Tg-8iD"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

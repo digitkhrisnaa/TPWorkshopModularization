@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="InspirationCollectionViewCell" customModule="TPWorkshopUnitTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="155"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inspiration For You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbI-6J-D0A">
+                        <rect key="frame" x="8" y="12" width="167" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Dfz-6o-bgN">
+                        <rect key="frame" x="0.0" y="45.5" width="380" height="97.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5aG-rO-a52">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Dfz-6o-bgN" firstAttribute="top" secondItem="tbI-6J-D0A" secondAttribute="bottom" constant="12" id="GNu-sn-QdS"/>
+                <constraint firstItem="tbI-6J-D0A" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="8" id="IWP-NU-rtO"/>
+                <constraint firstAttribute="bottom" secondItem="Dfz-6o-bgN" secondAttribute="bottom" constant="12" id="Luu-29-nH8"/>
+                <constraint firstItem="tbI-6J-D0A" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="cgD-tB-5L3"/>
+                <constraint firstItem="Dfz-6o-bgN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="m5n-NS-VcF"/>
+                <constraint firstAttribute="trailing" secondItem="Dfz-6o-bgN" secondAttribute="trailing" id="qEw-fH-kUX"/>
+            </constraints>
+            <size key="customSize" width="380" height="155"/>
+            <connections>
+                <outlet property="inspirationProductCollectionView" destination="Dfz-6o-bgN" id="ukD-90-UyE"/>
+                <outlet property="inspirationTitleLabel" destination="tbI-6J-D0A" id="ZeE-ee-pHx"/>
+            </connections>
+            <point key="canvasLocation" x="386.95652173913044" y="103.45982142857143"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
