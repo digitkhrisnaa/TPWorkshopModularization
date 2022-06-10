@@ -1,0 +1,562 @@
+{
+  "status": {
+    "error_code": 0,
+    "message": "OK"
+  },
+  "header": {
+    "total_data": 8799286,
+    "total_data_no_category": 8799287,
+    "additional_params": "",
+    "process_time": 0.18490321,
+    "suggestion_instead": null
+  },
+  "data": [
+    {
+      "id": 1885943485,
+      "name": "BASEUS Yiven Cable For iPhone 1.2M - CALYW",
+      "uri": "https://www.tokopedia.com/iotofficialshop/baseus-yiven-cable-for-iphone-1-2m-calyw-hitam",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/6/5/eaab1544-6b0a-46d2-9b9e-775873face83.jpg",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/6/5/eaab1544-6b0a-46d2-9b9e-775873face83.jpg",
+      "price": "Rp 49.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/kabel-data",
+      "shop": {
+        "id": 2983096,
+        "name": "IOT Official Shop",
+        "uri": "https://www.tokopedia.com/iotofficialshop",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Medan",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/2983096",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=2983096",
+        "city": "Medan",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 3071,
+      "rating": 98,
+      "is_featured": 0,
+      "count_review": 118,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Cashback",
+          "color": "#42b549"
+        },
+        {
+          "title": "Dilayani Tokopedia",
+          "color": "#ffffff"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 119.000",
+      "discount_expired": "2022-10-30T23:59:00Z",
+      "discount_start": "2021-11-05T20:29:16Z",
+      "discount_percentage": 59,
+      "stock": 596
+    },
+    {
+      "id": 1378621358,
+      "name": "ACMIC PDL100e USB Type C to Lightning Cable PD Fast Charging iPhone 1M",
+      "uri": "https://www.tokopedia.com/acmic/acmic-pdl100e-usb-type-c-to-lightning-cable-pd-fast-charging-iphone-1m-pdl100e-only",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/11/8/1a5a6a8c-121d-4e8a-8a5b-4f255b5b72cc.jpg",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/11/8/1a5a6a8c-121d-4e8a-8a5b-4f255b5b72cc.jpg",
+      "price": "Rp 69.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/kabel-data",
+      "shop": {
+        "id": 2310022,
+        "name": "ACMIC Official Store",
+        "uri": "https://www.tokopedia.com/acmic",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Medan",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/2310022",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=2310022",
+        "city": "Medan",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 3071,
+      "rating": 97,
+      "is_featured": 0,
+      "count_review": 1584,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Cashback",
+          "color": "#42b549"
+        },
+        {
+          "title": "Dilayani Tokopedia",
+          "color": "#ffffff"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 349.000",
+      "discount_expired": "2022-11-01T15:10:08Z",
+      "discount_start": "2021-11-01T15:27:08Z",
+      "discount_percentage": 80,
+      "stock": 180
+    },
+    {
+      "id": 1586627610,
+      "name": "Benovo Tempered Glass Camera Iphone 12 Pro Max Protector Lensa Kamera",
+      "uri": "https://www.tokopedia.com/digital3kuta/benovo-tempered-glass-camera-iphone-12-pro-max-protector-lensa-kamera",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/2/6/e7766b8e-0782-4e81-8a3c-55b7f8f8ac9d.jpg",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/2/6/e7766b8e-0782-4e81-8a3c-55b7f8f8ac9d.jpg",
+      "price": "Rp 25.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/screen-protector-handphone",
+      "shop": {
+        "id": 1946954,
+        "name": "digital 3",
+        "uri": "https://www.tokopedia.com/digital3kuta",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Surabaya",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/1946954",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=1946954",
+        "city": "Surabaya",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "wholesale_price": [
+        {
+          "count_min": 10,
+          "count_max": 10000,
+          "price": "Rp 22.500"
+        }
+      ],
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 76,
+      "rating": 99,
+      "is_featured": 0,
+      "count_review": 61,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Cashback",
+          "color": "#42b549"
+        },
+        {
+          "title": "Grosir",
+          "color": "#ffffff"
+        },
+        {
+          "title": "Dilayani Tokopedia",
+          "color": "#ffffff"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "",
+      "discount_expired": "",
+      "discount_start": "",
+      "discount_percentage": 0,
+      "stock": 92
+    },
+    {
+      "id": 1413259209,
+      "name": "Iphone XR Garansi Resmi Ibox",
+      "uri": "https://www.tokopedia.com/ptpratamasemesta/iphone-xr-garansi-resmi-ibox-putih-64-new-package",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/11/2/d6dac822-9e50-4854-bf6b-222d3591f559.png",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/11/2/d6dac822-9e50-4854-bf6b-222d3591f559.png",
+      "price": "Rp 8.749.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/handphone/ios",
+      "shop": {
+        "id": 717871,
+        "name": "PT Pratama Sntra Semesta",
+        "uri": "https://www.tokopedia.com/ptpratamasemesta",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Jakarta Barat",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/717871",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=717871",
+        "city": "Jakarta Barat",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 3055,
+      "rating": 99,
+      "is_featured": 0,
+      "count_review": 1306,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Tukar Tambah",
+          "color": "#42b549"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 8.849.000",
+      "discount_expired": "2021-11-19T23:52:00Z",
+      "discount_start": "2021-11-19T05:51:29Z",
+      "discount_percentage": 1,
+      "stock": 4
+    },
+    {
+      "id": 1424823578,
+      "name": "Original Caudabe Lucid Clear Case iPhone 12 Pro Max 12 Pro 12 12 Mini",
+      "uri": "https://www.tokopedia.com/caudabe-official/original-caudabe-lucid-clear-case-iphone-12-pro-max-12-pro-12-12-mini-12-pro-or-12-clear",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/7/10/60baafb9-565f-417c-a0dd-519f194fa59e.jpg",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/7/10/60baafb9-565f-417c-a0dd-519f194fa59e.jpg",
+      "price": "Rp 289.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+      "shop": {
+        "id": 8921459,
+        "name": "Caudabe Official",
+        "uri": "https://www.tokopedia.com/caudabe-official",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Jakarta Utara",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/8921459",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=8921459",
+        "city": "Jakarta Utara",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 69,
+      "rating": 98,
+      "is_featured": 0,
+      "count_review": 1143,
+      "count_talk": 0,
+      "count_sold": 0,
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 340.000",
+      "discount_expired": "2022-08-21T20:40:13Z",
+      "discount_start": "2021-08-21T20:40:13Z",
+      "discount_percentage": 15,
+      "stock": 9
+    },
+    {
+      "id": 1792142207,
+      "name": "Iphone 11 128GB Garansi Resmi TAM / Ibox",
+      "uri": "https://www.tokopedia.com/ptpratamasemesta/iphone-11-128gb-garansi-resmi-tam-ibox-black-64-new-packed",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/11/2/4173dc21-75e3-4691-8574-c1e38cf0819b.png",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/11/2/4173dc21-75e3-4691-8574-c1e38cf0819b.png",
+      "price": "Rp 10.749.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/handphone/ios",
+      "shop": {
+        "id": 717871,
+        "name": "PT Pratama Sntra Semesta",
+        "uri": "https://www.tokopedia.com/ptpratamasemesta",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Jakarta Barat",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/717871",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=717871",
+        "city": "Jakarta Barat",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 3055,
+      "rating": 99,
+      "is_featured": 0,
+      "count_review": 1159,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Tukar Tambah",
+          "color": "#42b549"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 10.899.000",
+      "discount_expired": "2021-11-19T23:17:00Z",
+      "discount_start": "2021-11-19T05:51:29Z",
+      "discount_percentage": 1,
+      "stock": 3
+    },
+    {
+      "id": 1523016699,
+      "name": "Ringke iPhone 11 / 11 Pro / 11 Pro Max Fusion Anti Crack Anti Drop Ori",
+      "uri": "https://www.tokopedia.com/ringke/ringke-iphone-11-11-pro-11-pro-max-fusion-anti-crack-anti-drop-ori-pro-nylabel",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/5/10/569c9afa-18c9-4045-94ca-938e9c3ef7d6.jpg",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/5/10/569c9afa-18c9-4045-94ca-938e9c3ef7d6.jpg",
+      "price": "Rp 98.850",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+      "shop": {
+        "id": 2723217,
+        "name": "Official Ringke Partner",
+        "uri": "https://www.tokopedia.com/ringke",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Jakarta Utara",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/2723217",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=2723217",
+        "city": "Jakarta Utara",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 69,
+      "rating": 98,
+      "is_featured": 0,
+      "count_review": 599,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Gratis Ongkir",
+          "color": "#42b549"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 220.000",
+      "discount_expired": "2021-11-20T12:00:00Z",
+      "discount_start": "2021-11-19T12:30:00Z",
+      "discount_percentage": 55,
+      "stock": 4
+    },
+    {
+      "id": 2339650792,
+      "name": "Brooklyn Tempered Glass iPhone X XR XS MAX 11 12 MINI PRO MAX 3D Full",
+      "uri": "https://www.tokopedia.com/thebrooklyn/brooklyn-tempered-glass-iphone-x-xr-xs-max-11-12-mini-pro-max-3d-full-iphone-13promax",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/7/16/768ae6f0-de88-45fc-8272-7b725af03986.png",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/7/16/768ae6f0-de88-45fc-8272-7b725af03986.png",
+      "price": "Rp 85.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/screen-protector-handphone",
+      "shop": {
+        "id": 2209621,
+        "name": "Brooklyn Official Shop",
+        "uri": "https://www.tokopedia.com/thebrooklyn",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Jakarta Barat",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/2209621",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=2209621",
+        "city": "Jakarta Barat",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 76,
+      "rating": 99,
+      "is_featured": 0,
+      "count_review": 313,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Cashback",
+          "color": "#42b549"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 98.000",
+      "discount_expired": "2022-11-16T08:03:21Z",
+      "discount_start": "2021-11-16T08:03:21Z",
+      "discount_percentage": 13,
+      "stock": 195
+    },
+    {
+      "id": 679592330,
+      "name": "Ringke iPhone Xs / Xs Max / Xr Fusion Anti Crack Anti Drop Original",
+      "uri": "https://www.tokopedia.com/ringke/ringke-iphone-xs-xs-max-xr-fusion-anti-crack-anti-drop-original-xs-x-clear",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/4/23/00866628-4ab7-4e9b-b180-a044b892f9fa.jpg",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/4/23/00866628-4ab7-4e9b-b180-a044b892f9fa.jpg",
+      "price": "Rp 140.850",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+      "shop": {
+        "id": 2723217,
+        "name": "Official Ringke Partner",
+        "uri": "https://www.tokopedia.com/ringke",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Jakarta Utara",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/2723217",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=2723217",
+        "city": "Jakarta Utara",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 69,
+      "rating": 98,
+      "is_featured": 0,
+      "count_review": 451,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Gratis Ongkir",
+          "color": "#42b549"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 220.000",
+      "discount_expired": "2021-11-20T12:00:00Z",
+      "discount_start": "2021-11-19T12:32:00Z",
+      "discount_percentage": 36,
+      "stock": 19
+    },
+    {
+      "id": 502349337,
+      "name": "VEGER FAST Durable Data Cable USB Lightning For iPhone 1000mm",
+      "uri": "https://www.tokopedia.com/veger/veger-fast-durable-data-cable-usb-lightning-for-iphone-1000mm-merah",
+      "image_uri": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/10/4/fbb84274-8f16-48b1-9e50-3e624bce80a1.jpg",
+      "image_uri_700": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/10/4/fbb84274-8f16-48b1-9e50-3e624bce80a1.jpg",
+      "price": "Rp 13.000",
+      "price_range": "",
+      "category_breadcrumb": "handphone-tablet/aksesoris-handphone/kabel-data",
+      "shop": {
+        "id": 935436,
+        "name": "Veger",
+        "uri": "https://www.tokopedia.com/veger",
+        "is_gold": 1,
+        "rating": null,
+        "location": "Jakarta Utara",
+        "reputation_image_uri": "https://inbox.tokopedia.com/reputation/v1/badge/shop/935436",
+        "shop_lucky": "https://clover.tokopedia.com/badges/merchant/v1?shop_id=935436",
+        "city": "Jakarta Utara",
+        "is_power_badge": true,
+        "is_tokonow": false,
+        "shop_tier": 2
+      },
+      "condition": 1,
+      "preorder": 0,
+      "department_id": 3071,
+      "rating": 98,
+      "is_featured": 0,
+      "count_review": 765,
+      "count_talk": 0,
+      "count_sold": 0,
+      "labels": [
+        {
+          "title": "Cashback",
+          "color": "#42b549"
+        }
+      ],
+      "label_groups": null,
+      "top_label": null,
+      "bottom_label": null,
+      "badges": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "show": true
+        }
+      ],
+      "original_price": "Rp 59.000",
+      "discount_expired": "2022-12-31T11:42:00Z",
+      "discount_start": "2021-10-19T11:42:54Z",
+      "discount_percentage": 78,
+      "stock": 150
+    }
+  ]
+}
