@@ -7,30 +7,30 @@
 
 import Foundation
 
-struct InspirationResult: Decodable, Equatable {
-    let data: [Inspiration]
+public struct InspirationResult: Decodable, Equatable {
+    public let data: [Inspiration]
 }
 
-struct Inspiration: Decodable, Equatable {
-    let title: String
-    let position: Int
-    let products: [ProductInspiration]
+public struct Inspiration: Decodable, Equatable {
+    public let title: String
+    public let position: Int
+    public let products: [ProductInspiration]
 }
 
 extension Inspiration: HashDiffable {
-    var identifier: Int {
+    public var identifier: Int {
         return "inspiration-\(title)".hashValue
     }
 }
 
-struct ProductInspiration: Equatable {
-    let id: Int
-    let price: Int
-    let imageURL: URL?
+public struct ProductInspiration: Equatable {
+    public let id: Int
+    public let price: Int
+    public let imageURL: URL?
 }
 
 extension ProductInspiration: Decodable {
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         id = try container.decode(Int.self, forKey: .id)
         price = try container.decode(Int.self, forKey: .price)
@@ -38,7 +38,7 @@ extension ProductInspiration: Decodable {
         imageURL = URL(string: url)
     }
     
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         case id
         case price
         case imageURL = "image_url"
@@ -46,7 +46,7 @@ extension ProductInspiration: Decodable {
 }
 
 extension ProductInspiration: HashDiffable {
-    var identifier: Int {
+    public var identifier: Int {
         return "productInspiration-\(id)".hashValue
     }
 }

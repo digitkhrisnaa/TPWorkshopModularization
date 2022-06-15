@@ -30,6 +30,7 @@
 		19CED9A228527D9400B7C423 /* CatalogPageNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CED98C28527D9400B7C423 /* CatalogPageNetworkProvider.swift */; };
 		19CED9A92852F77F00B7C423 /* ProductDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CED9A72852F77F00B7C423 /* ProductDetailPageViewController.swift */; };
 		19CED9AA2852F77F00B7C423 /* ProductDetailPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19CED9A82852F77F00B7C423 /* ProductDetailPageViewController.xib */; };
+		19E59457285999310049E665 /* UIApplication+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E59456285999310049E665 /* UIApplication+TopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		19CED98C28527D9400B7C423 /* CatalogPageNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogPageNetworkProvider.swift; sourceTree = "<group>"; };
 		19CED9A72852F77F00B7C423 /* ProductDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailPageViewController.swift; sourceTree = "<group>"; };
 		19CED9A82852F77F00B7C423 /* ProductDetailPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailPageViewController.xib; sourceTree = "<group>"; };
+		19E59456285999310049E665 /* UIApplication+TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+TopViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				19CED98528527D9400B7C423 /* UIImageView+Extension.swift */,
 				19CED98628527D9400B7C423 /* HashDiffable.swift */,
 				19CED98728527D9400B7C423 /* NetworkResult.swift */,
+				19E59456285999310049E665 /* UIApplication+TopViewController.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E59457285999310049E665 /* UIApplication+TopViewController.swift in Sources */,
 				19CED9A228527D9400B7C423 /* CatalogPageNetworkProvider.swift in Sources */,
 				19CED99028527D9400B7C423 /* InspirationItemCollectionViewCell.swift in Sources */,
 				19CED99D28527D9400B7C423 /* HashDiffable.swift in Sources */,

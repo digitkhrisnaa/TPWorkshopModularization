@@ -7,18 +7,18 @@
 
 import Foundation
 
-struct ProductResult: Decodable {
-    let data: [Product]
+public struct ProductResult: Decodable {
+    public let data: [Product]
 }
 
-struct Product {
-    let id: Int
-    let name: String
-    let imageURL: URL?
-    let price: String
-    let shop: Shop
+public struct Product {
+    public let id: Int
+    public let name: String
+    public let imageURL: URL?
+    public let price: String
+    public let shop: Shop
     
-    init(id: Int, name: String, imageURL: URL?, price: String, shop: Shop) {
+    public init(id: Int, name: String, imageURL: URL?, price: String, shop: Shop) {
         self.id = id
         self.name = name
         self.imageURL = imageURL
@@ -28,7 +28,7 @@ struct Product {
 }
 
 extension Product: Decodable {
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         id = try container.decode(Int.self, forKey: .id)
         name = try container.decode(String.self, forKey: .name)
@@ -38,13 +38,13 @@ extension Product: Decodable {
         shop = try container.decode(Shop.self, forKey: .shop)
     }
     
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         case id, name, price, shop, imageURL = "image_uri"
     }
 }
 
 extension Product: Equatable {
-    static func == (lhs: Product, rhs: Product) -> Bool {
+    public static func == (lhs: Product, rhs: Product) -> Bool {
         return lhs.id == rhs.id &&
         lhs.name == rhs.name &&
         lhs.imageURL == rhs.imageURL &&
@@ -54,19 +54,25 @@ extension Product: Equatable {
 }
 
 extension Product: HashDiffable {
-    var identifier: Int {
+    public var identifier: Int {
         return "product-\(id)".hashValue
     }
 }
 
-struct Shop: Decodable, Equatable {
-    let id: Int
-    let name: String
-    let location: String
+public struct Shop: Decodable, Equatable {
+    public let id: Int
+    public let name: String
+    public let location: String
+    
+    public init(id: Int, name: String, location: String) {
+        self.id = id
+        self.name = name
+        self.location = location
+    }
 }
 
 extension Shop: HashDiffable {    
-    var identifier: Int {
+    public var identifier: Int {
         return "shop-\(id)".hashValue
     }
 }

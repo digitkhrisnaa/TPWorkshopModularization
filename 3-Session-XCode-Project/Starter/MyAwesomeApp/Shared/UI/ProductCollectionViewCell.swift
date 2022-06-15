@@ -7,19 +7,19 @@
 
 import UIKit
 
-class ProductCollectionViewCell: UICollectionViewCell {
+public class ProductCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var productImageView: UIImageView!
     @IBOutlet weak var productNameLabel: UILabel!
     @IBOutlet weak var productPriceLabel: UILabel!
     @IBOutlet weak var productShopLabel: UILabel!
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
     
-    func configure(product: Product) {
+    public func configure(product: Product) {
         productImageView.load(url: product.imageURL)
         productNameLabel.text = product.name
         productPriceLabel.text = product.price

@@ -86,7 +86,7 @@ extension CatalogPageViewController: UICollectionViewDelegate {
         switch viewModel.data[indexPath.row] {
         case let data as Product:
             let productDetailPage = ProductDetailPageViewController(product: data)
-            navigationController?.pushViewController(productDetailPage, animated: true)
+            UIApplication.topViewController()?.navigationController?.pushViewController(productDetailPage, animated: true)
         default:
             fatalError("can't read the data")
         }

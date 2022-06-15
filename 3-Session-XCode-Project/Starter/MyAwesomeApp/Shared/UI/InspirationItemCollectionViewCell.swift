@@ -7,17 +7,17 @@
 
 import UIKit
 
-class InspirationItemCollectionViewCell: UICollectionViewCell {
+public class InspirationItemCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var productImageView: UIImageView!
     @IBOutlet weak var productPriceLabel: UILabel!
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    func configure(product: ProductInspiration) {
+    public func configure(product: ProductInspiration) {
         productImageView.load(url: product.imageURL)
         productPriceLabel.text = "\(product.price)"
     }
